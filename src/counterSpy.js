@@ -21,6 +21,13 @@ const counterSpy = (arr) => {
 
         };
         return civiArr.sort();
+
+    
+    // refactoring above code via filter method and test() regExp method
+    // filter() method? syntax: array.filter((element, index, array) => { ... } )
+    const spy = /[spy]/i;
+    return arr.filter(civi => !spy.test(civi)).sort();
+
 };
 
   
