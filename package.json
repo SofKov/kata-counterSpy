@@ -1,0 +1,17 @@
+{
+  "name": "kov_katas",
+  "version": "1.0.0",
+  "description": "For this kata, you need to write a function called counterSpy. It takes an array of names. The function should return an array containing the names of the people who aren't spies.",
+  "main": "counterSpy.js",
+  "dependencies": {
+    "D": "^1.0.0",
+    "jest": "^27.0.6"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
