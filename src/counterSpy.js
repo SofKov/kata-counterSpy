@@ -12,15 +12,15 @@ const counterSpy = (arr) => {
     // return civiArr;
     
     // code which pushes elements not equaling the test values to new array and returns new array in alphabetical order
-    let civiArr = [];   
-    for(let i = 0; i < arr.length; i++) {
-        let split = arr[i].toLowerCase().split("");
-        if (!split.includes('s') && !split.includes('p') && !split.includes('y')) {
-            civiArr.push(arr[i]);
-        };
+    // let civiArr = [];   
+    // for(let i = 0; i < arr.length; i++) {
+    //     let split = arr[i].toLowerCase().split("");
+    //     if (!split.includes('s') && !split.includes('p') && !split.includes('y')) {
+    //         civiArr.push(arr[i]);
+    //     };
 
-        };
-        return civiArr.sort();
+    //     };
+    //     return civiArr.sort();
 
     
     // refactoring above code via filter method and test() regExp method
