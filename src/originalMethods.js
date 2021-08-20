@@ -14,7 +14,7 @@ const counterSpy = (arr) => {
     // code which pushes elements not equaling the test values to new array and returns new array in alphabetical order
     let civiArr = [];   
     for(let i = 0; i < arr.length; i++) {
-        let split = arr[i].toLowerCase().split("");
+        let split = arr[i].toLowerCase();
         if (!split.includes('s') && !split.includes('p') && !split.includes('y')) {
             civiArr.push(arr[i]);
         };
